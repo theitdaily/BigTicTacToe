@@ -1,19 +1,26 @@
-# BigTicTacToe
+## BigTicTacToe
 
-### Главное меню
+### Main Menu  
 <img src="/.gitresource/MainMenu.png">
 
-### Выбор игрового режима
-Можно выбрать либо классический (3х3), режим с большой сеткой (9 полей 3х3, по сути 3х3 внутри другого 3х3) и настроить собственный вариант.
+### Game Mode Selection  
+You can choose between the classic mode (3×3), a large grid mode (9 boards of 3×3 — essentially a 3×3 inside another 3×3), or create a custom setup.  
 <img src="/.gitresource/SelectTypeGame.png">
 
-### Настройка игрового режима
-В этом меню можно настроить размер полей, в том числе можно настраивать несимметричные поля (например 2х4), а также будет это классический режим, или режим с несколькими полями (Big Tic Tac Toe).
+### Game Mode Settings  
+In this menu, you can configure the board size, including non-symmetrical grids (for example, 2×4), and choose between the classic mode or the multi-board mode (Big Tic Tac Toe).  
 <img src="/.gitresource/CustomGame.png">
 
-### Режим Big Tic Tac Toe
-В классическом варианте этого режима у нас есть 9 полей (3х3), внутри которых также поля 3х3. Первый ход можно сделать где угодно, но следующий будет зависить от предыдущего. Если вы походили на малеком поле в левом нижнем углу, то следующий ход будет на большом поле в левом нижнем углу, если это возможно. Если нет, то следующий ход можно сделать в любом поле. Построив 3 в ряд на маленьком поле, вы его закрываете и всё поле закрашивается. 
+### Big Tic Tac Toe Mode  
+In the classic version of this mode, there are 9 boards (3×3), each containing its own 3×3 grid. The first move can be made anywhere, but each subsequent move depends on the previous one.  
+
+If you make a move in a small board cell located in the bottom-left position, the next move must be made in the corresponding bottom-left board of the larger grid (if available). If that board is already closed or unavailable, the next move can be made in any board.  
+
+When a player gets three in a row on a small board, that board is captured and visually marked (filled in).  
+
 <img src="/.gitresource/GameStep1.png"><br>
 <img src="/.gitresource/GameStep2.png"><br>
-Побеждает тот игрок, кто построит 3 в ряд на большом поле.
+
+The winner is the player who gets three in a row on the large board.  
+
 <img src="/.gitresource/GameWin.png"><br>
